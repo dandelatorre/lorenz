@@ -23,3 +23,8 @@ body
     color: red;
     cursor: hand;
 }
+
+.inpbx
+{
+    border-radius: 0px 0px 0px 0px;
+}

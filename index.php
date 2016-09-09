@@ -44,13 +44,14 @@
                                     <input id="user_pw" name="user_pw" class="form-control inpbx" placeholder="Password" type="password">
                                 </div>
                             </div>
-                            <button type="submit" id="user_login" name="user_login" class="form-control btn btn-primary"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+                            <button type="submit" id="user_login" name="user_login" class="form-control btn btn-primary hvr-back-pulse"><span class="glyphicon glyphicon-log-in"></span> Login</button>
                         <!--/form -->
                     </div>
                     <div class="col-md-6 hidden-xs hidden-sm">
                         <img src="assets/images/login_logo.png" class="img-responsive">
                     </div>
                 </div>
+                <div class="panel-footer"></div>
             </div>
         </div>
         <script src="assets/web/js/login.js"></script>
