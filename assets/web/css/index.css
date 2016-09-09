@@ -1,0 +1,25 @@
+body
+{
+    background-color: lightgray;
+}
+
+#jumbotron_1
+{
+    background-color: transparent;
+}
+
+#login-panel-head
+{
+    font-weight: bolder;
+}
+
+#test
+{
+    color: blanchedalmond;
+}
+
+#warning-panel-cross:hover
+{
+    color: red;
+    cursor: hand;
+}
