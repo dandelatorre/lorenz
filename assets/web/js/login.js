@@ -37,9 +37,6 @@ $('#user_login').click(function()
     var user_id = $('#user_id').val();
     var user_pw = $('#user_pw').val();
     
-    var id_validation;
-    var pw_validation;
-    
     function _showError(pram)
     {
         $('#user_id').attr("disabled", "disabled"); 

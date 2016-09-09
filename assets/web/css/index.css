@@ -20,8 +20,10 @@ body
 
 #warning-panel-cross:hover
 {
-    color: red;
+    color: lightcoral;
     cursor: hand;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .inpbx

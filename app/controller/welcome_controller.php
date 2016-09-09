@@ -1,5 +1,5 @@
 <?php
-    require_once dirname(__DIR__)."/model/welcome_model.php";
+    require_once dirname(__DIR__)."/model/employee_model.php";
     require_once dirname(__DIR__)."/config/_encrypt.php";
     
     class _empLogin extends employee
@@ -8,7 +8,7 @@
         {
             if($id == null || $pw == null)
             {
-                echo 0;
+                return false;
             }
             else
             {
